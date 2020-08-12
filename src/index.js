@@ -6,6 +6,7 @@ const getVersioning = require('./version')
 const git = require('./helpers/git')
 const changelog = require('./helpers/generateChangelog')
 
+
 async function handleVersioningByExtension(ext, file, versionPath, releaseType) {
   const versioning = getVersioning(ext)
 
